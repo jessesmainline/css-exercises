@@ -1,0 +1,21 @@
+/* style.css */
+
+.magenta {
+
+    background-color: #f08080;
+    font: Verdana, DejaVu Sans, sans-serif;
+
+}
+
+#blue36pt {
+
+    color:hsl(240, 100%, 50%);
+    font-size: 36pt;
+
+}
+
+#pt24{
+
+    font-size: 24pt;
+}
+
