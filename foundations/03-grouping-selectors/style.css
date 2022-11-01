@@ -1,21 +1,16 @@
 /* style.css */
 
-.magenta {
-
-    background-color: #f08080;
-    font: Verdana, DejaVu Sans, sans-serif;
-
+.first, 
+.second{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
-#blue36pt {
-
-    color:hsl(240, 100%, 50%);
-    font-size: 36pt;
-
+.first{
+    background-color: black;
+    color: white;
 }
 
-#pt24{
-
-    font-size: 24pt;
+.second{
+    background-color: yellow;
 }
-
