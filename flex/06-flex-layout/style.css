@@ -25,3 +25,71 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* 
+J Solution
+
+Slightly different with the provided solution, but maintained similar results.
+The margins and padding still seem to confuse me. I should also look more at nesting selectors.
+
+}
+
+*/
+
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+ul {
+  list-style-type: none;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+ 
+}
+
+.left-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.right-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
